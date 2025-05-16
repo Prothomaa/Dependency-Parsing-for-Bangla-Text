@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NLP Dependency Parsing Result</title>
+</head>
+<body>
+    <h2>NLP Dependency Parsing Result</h2>
+    <p><strong>Title:</strong> {{ analysis.title }}</p>
+    <p><strong>Input:</strong> {{ analysis.sentence }}</p>
+    <p><strong>POS Tagging:</strong> {{ analysis.pos }}</p>
+    <p><strong>Dependencies in "[(Parent, Child)]" form (by word):</strong> {{ analysis.input }}</p>
+    <p><strong>Dependencies in "[(Parent, Child)]" form (by number):</strong> {{ analysis.num }}</p>
+    <p><strong>Accuracy of each sentence:</strong> {{ analysis.accu }}</p>
+</body>
+</html>
